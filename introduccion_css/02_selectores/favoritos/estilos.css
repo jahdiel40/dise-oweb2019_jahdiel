@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+
+    background: #BDC3C7;
+    font-family:arial;
+}
+
+h1,h2,h3,h4,ol{
+
+    color:#DC3522;
+    
+}
+
+a{
+    color:#374140;
+}
+ p{
+
+    color:#04756F;
+ }
+
+ #biografia{
+     background: #d2c18c;
+
+ }
+ #carrera{
+     background: #cbb87a;
+ }
+#premios{
+    background: #c4ae68;
+}
+#vida_personal{
+    background: #bda456;
+}
+
+#galeria_de_imagenes{
+    background: #b49a46;
+} 
+
+p{
+    color:lightblue;
+}
+p{
+    color: brown;
+    font-size: 20px;
+}
+/* esto es un comentario.
+se utiliza para describir parte del codigo.
+este codigo no se ejecuta por el navegador */
+
+/* herencia en css */
+
+nav {
+    background: #ddd;
+    padding: 10px;
+    border: solid 1px gray;
+}
+
+nav a{
+    color: dodgerblue;
+    padding: 5px;
+    margin: 10px;
+    border: solid 1px dodgerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #fff;
+    display: inline-block;
+}
+
+nav a:hover{
+    background: dodgerblue;
+    color: white;
+}
+
