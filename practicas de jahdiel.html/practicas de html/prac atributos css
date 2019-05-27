@@ -1,0 +1,19 @@
+/* elementos <a> con un atributo de título */
+a[title] {
+  color: purple;
+}
+
+/* elementos <a> con un href que coincida con "https://example.org" */
+a[href="https://example.org"] {
+  color: green;
+}
+
+/* elementos <a> con un href que contenga "example" */
+a[href*="example"] {
+  font-size: 2em;
+}
+
+/* elementos <a> con un href que termina en ".org" */
+a[href$=".org"] {
+  font-style: italic;
+}

@@ -1,0 +1,50 @@
+.pixel{
+    background:blue;
+    width: 200px;
+    height: 200px;
+}
+ .pixel1{
+     background: red;
+     width: 100px;
+     height: 150px;
+ }
+ .pixel2{
+     background: green;
+     width: 300px;
+     height: 210px;
+ }
+ .pixel3{
+     background: yellow;
+     width: 350;
+     height: 170;
+ }
+
+ .pixel4{
+     background: purple;
+     width: 400;
+     height: 300;
+ }
+
+ .relativo_pixel{
+     font-size: 20px;
+ }
+ .porciento {
+     background:chocolate;
+     width: 50%;
+     height: 50%;
+ }
+
+ .porciento75 {
+     background: lightskyblue;
+     width: 75%;
+     margin: 20px;
+ }
+ .porciento100 {
+     background: chocolate;
+     width: 100%;
+ }
+
+ body {
+     width: 50%;
+     
+ }
